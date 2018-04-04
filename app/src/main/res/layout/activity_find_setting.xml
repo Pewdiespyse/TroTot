@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:rsb="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorListViewBackground"
+    tools:context="com.team10.trotot.view.activities.NotificationSettingActivity">
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar_find_setting"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:popupTheme="@style/AppTheme.PopupOverlay" />
+    </android.support.design.widget.AppBarLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="20dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/post_price" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:background="@drawable/custom_editbox_style"
+                    android:orientation="vertical"
+                    android:padding="10dp">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:id="@+id/tvGiaPhongMin_Find"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentLeft="true"
+                            android:text="@string/notification_setting_GiaPhong_Min" />
+
+                        <TextView
+                            android:id="@+id/tvGiaPhongMax_Find"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentRight="true"
+                            android:text="@string/notification_setting_GiaPhong_Max" />
+                    </RelativeLayout>
+
+                    <com.team10.trotot.view.supports.RangeSeekBar
+                        android:id="@+id/sbGiaphong_Find"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        rsb:absoluteMaxValue="10"
+                        rsb:absoluteMinValue="0"
+                        rsb:thumbDisabled="@drawable/ic_notification_setting_custom_slider_thumb"
+                        rsb:thumbNormal="@drawable/ic_notification_setting_custom_slider_thumb"
+                        rsb:thumbPressed="@drawable/ic_notification_setting_custom_slider_thumb"
+                        rsb:thumbShadow="true"
+                        rsb:thumbShadowBlur="3dp"
+                        rsb:thumbShadowXOffset="1dp"
+                        rsb:thumbShadowYOffset="2dp" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/post_area" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:background="@drawable/custom_editbox_style"
+                    android:orientation="vertical"
+                    android:padding="10dp">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:id="@+id/tvDienTichMin_Find"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentLeft="true" />
+
+                        <TextView
+                            android:id="@+id/tvDienTichMax_Find"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentRight="true" />
+                    </RelativeLayout>
+
+                    <com.team10.trotot.view.supports.RangeSeekBar
+                        android:id="@+id/sbDienTich_Find"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentStart="true"
+                        android:layout_below="@+id/tvDienTichMin"
+                        android:layout_centerVertical="true"
+                        rsb:absoluteMaxValue="500"
+                        rsb:absoluteMinValue="0"
+                        rsb:thumbDisabled="@drawable/ic_notification_setting_custom_slider_thumb"
+                        rsb:thumbNormal="@drawable/ic_notification_setting_custom_slider_thumb"
+                        rsb:thumbPressed="@drawable/ic_notification_setting_custom_slider_thumb"
+                        rsb:thumbShadow="true"
+                        rsb:thumbShadowBlur="3dp"
+                        rsb:thumbShadowXOffset="1dp"
+                        rsb:thumbShadowYOffset="2dp" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Bán kính" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:background="@drawable/custom_editbox_style"
+                    android:orientation="vertical"
+                    android:padding="10dp">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:id="@+id/tvBanKinh_Find"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentLeft="true"
+                            android:text="@string/notification_setting_BanKinh_Min" />
+
+                    </RelativeLayout>
+
+                    <SeekBar
+                        android:id="@+id/sbBanKinh_Find"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentStart="true"
+                        android:layout_below="@+id/tvBanKinh"
+                        android:layout_centerVertical="true"
+                        android:min="0"
+                        android:max="2000"
+                        android:thumb="@drawable/ic_notification_setting_custom_slider_thumb" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

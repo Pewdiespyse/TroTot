@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_height="match_parent"
+    android:background="@color/colorListViewBackground"
+    android:layout_width="match_parent"
+    android:paddingTop="5dp"
+    android:paddingBottom="5dp"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_height="match_parent"
+        android:padding="10dp"
+        android:background="@drawable/custom_listview_style"
+        android:layout_width="match_parent"
+        xmlns:android="http://schemas.android.com/apk/res/android">
+        <RelativeLayout android:layout_height="match_parent"
+            android:layout_width="match_parent">
+            <LinearLayout
+                android:id="@+id/imgHolder"
+                android:background="@drawable/custom_image_holder_style"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:padding="2dp"
+                android:layout_margin="6dp"
+                >
+                <ImageView
+                    android:scaleType="centerCrop"
+                    android:id="@+id/img_item_favorite_motel"
+                    android:layout_height="90dp"
+                    android:layout_width="120dp"/>
+            </LinearLayout>
+
+
+            <TextView
+                android:id="@+id/tv_item_favorite_motel_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignTop="@+id/imgHolder"
+                android:layout_marginRight="6dp"
+                android:layout_marginLeft="6dp"
+                android:layout_toEndOf="@+id/imgHolder"
+                android:text="Motel Name"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textSize="15sp" />
+
+            <ImageView
+                android:id="@+id/img_item_favorite_motel_price"
+                android:src="@drawable/price"
+                android:layout_height="23dp"
+                android:layout_width="23dp"
+                android:layout_marginLeft="6dp"
+                android:layout_marginRight="6dp"
+                android:layout_alignTop="@+id/tv_item_favorite_motel_price"
+                android:layout_toEndOf="@+id/imgHolder" />
+
+            <TextView
+                android:id="@+id/tv_item_favorite_motel_price"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_below="@+id/tv_item_favorite_motel_name"
+                android:layout_marginRight="6dp"
+                android:layout_toEndOf="@+id/img_item_favorite_motel_price"
+                android:paddingTop="3dp"
+                android:text="Price"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textSize="12sp" />
+
+            <ImageView
+                android:id="@+id/time"
+                android:src="@drawable/time"
+                android:layout_height="20dp"
+                android:layout_width="20dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="6dp"
+                android:layout_below="@+id/img_item_favorite_motel_price"
+                android:paddingTop="2dp"
+                android:layout_marginTop="3dp"
+                android:layout_toEndOf="@+id/imgHolder" />
+
+            <TextView
+                android:id="@+id/tv_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_below="@+id/img_item_favorite_motel_price"
+                android:layout_marginRight="6dp"
+                android:layout_marginTop="2dp"
+                android:layout_toEndOf="@+id/img_item_favorite_motel_price"
+                android:paddingTop="2dp"
+                android:text="Time"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textSize="12sp" />
+
+            <ImageView
+                android:id="@+id/img_item_favorite_motel_rating"
+                android:layout_width="23dp"
+                android:layout_height="23dp"
+                android:layout_alignBottom="@+id/tv_evaluate"
+                android:layout_alignEnd="@+id/time"
+                android:layout_alignStart="@+id/img_item_favorite_motel_price"
+                android:layout_alignTop="@+id/tv_evaluate"
+                android:src="@drawable/rate" />
+
+            <TextView
+                android:id="@+id/tv_evaluate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_below="@+id/tv_time"
+                android:layout_marginRight="6dp"
+                android:layout_marginTop="5dp"
+                android:layout_toEndOf="@+id/time"
+                android:paddingTop="3dp"
+                android:text="Evaluate"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textSize="12sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="Address"
+                android:id="@+id/tv_address"
+                android:layout_below="@+id/imgHolder"
+                android:layout_alignStart="@+id/imgHolder"
+                android:layout_alignParentEnd="true"
+                android:layout_marginRight="6dp"/>
+
+        </RelativeLayout>
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorListViewBackground"
+    android:orientation="vertical">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar_profile_about"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+    </android.support.design.widget.AppBarLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="20dp"
+        android:background="@drawable/custom_editbox_style"
+        android:orientation="vertical"
+        android:paddingTop="35dp">
+
+        <ImageView
+            android:id="@+id/imageView_about_logo"
+            android:layout_width="200dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:background="@drawable/custom_app_icon_holder_style"
+            android:scaleType="fitCenter"
+            android:src="@drawable/mainmenu" />
+
+        <TextView
+            android:id="@+id/textView_about_version"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical|center_horizontal|center"
+            android:paddingTop="15dp"
+            android:text="@string/version" />
+
+        <TextView
+            android:id="@+id/textView_about_number_version"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:paddingTop="15dp"
+            android:text="@string/number_version"
+            android:textStyle="normal" />
+
+        <TextView
+            android:id="@+id/textView_about_group_dev"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:paddingTop="30dp"
+            android:text="@string/about_group_dev"
+            android:textColor="@color/selector_txt" />
+
+        <TextView
+            android:id="@+id/textView_about_policy"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:paddingTop="15dp"
+            android:text="@string/about_policy"
+            android:textColor="@color/selector_txt" />
+
+        <TextView
+            android:id="@+id/textView_about_app_store"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:paddingTop="15dp"
+            android:text="@string/about_rate_on_app_store"
+            android:textColor="@color/selector_txt" />
+
+        <TextView
+            android:id="@+id/textView_about_title_web"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:paddingTop="30dp"
+            android:text="@string/about_visit_web"
+            android:textStyle="normal" />
+
+        <TextView
+            android:id="@+id/textView_about_website"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/about_website"
+            android:textColor="@color/selector_txt" />
+
+    </LinearLayout>
+
+</LinearLayout>

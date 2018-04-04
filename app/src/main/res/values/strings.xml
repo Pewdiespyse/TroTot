@@ -1,0 +1,205 @@
+<resources>
+    <!-- Main -->
+    <string name="app_name">Trọ Tốt</string>
+    <string name="home">Trang chủ</string>
+    <string name="favorite">Yêu thích</string>
+    <string name="notification">Thông báo</string>
+    <string name="profile">Cá nhân</string>
+    <string name="facebook_app_id">127919827911885</string>
+    <string name="fb_login_protocol_scheme">fb127919827911885</string>
+
+    <string name="lorem">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?</string>
+    <!-- End of Main -->
+
+    <!--Home-->
+    <string name="home_model_detail_information">Thông tin</string>
+    <string name="home_model_detail_image">Hình ảnh</string>
+    <string name="home_model_detail_review">Đánh giá</string>
+    <string name="home_model_detail_map">Bản đồ</string>
+
+    <string name="home_no_data">Không có dữ liệu</string>
+
+    <string name="home_model_detail_share">Chia sẻ</string>
+    <string name="home_model_detail_love">Yêu thích</string>
+
+    <string name="home_model_detail_ok">OK</string>
+    <string name="home_model_detail_cancel">Huỷ</string>
+
+    <string name="home_model_detail_name">Chi tiết phòng trọ</string>
+    <string name="home_model_detail_not_found">Không tìm thấy nhà trọ</string>
+
+    <string name="home_model_detail_information_address">Địa chỉ:</string>
+    <string name="home_model_detail_information_area">Diện tích:</string>
+    <string name="home_model_detail_information_detail">Thông tin:</string>
+    <string name="home_model_detail_information_name">Tên phòng trọ:</string>
+    <string name="home_model_detail_information_phone">Điện thoại:</string>
+    <string name="home_model_detail_information_price">Giá tiền:</string>
+    <string name="home_model_detail_information_status">Trạng thái:</string>
+    <string name="home_model_detail_information_open_time">Thời gian mở cửa:</string>
+    <string name="home_model_detail_information_close_time">Thời gian đóng cửa:</string>
+    <string name="home_model_detail_information_post_time">Thời gian đăng tin:</string>
+
+    <string name="home_model_detail_information_call">Gọi</string>
+    <string name="home_model_detail_information_sms">Nhắn tin</string>
+    <string name="home_model_detail_information_contact">Liên hệ</string>
+    <string name="home_model_detail_information_contact_detail">Liên hệ với chủ phòng trọ qua số diện thoại</string>
+
+    <string name="home_model_detail_review_my_rating">Đánh giá của bạn</string>
+    <string name="home_model_detail_review_my_comment">Thêm bình luận của bạn</string>
+    <string name="home_model_detail_review_comment_reply">Phản hồi</string>
+    <string name="home_model_detail_review_comment_like">Thích</string>
+    <string name="home_model_detail_review_comment_liked">Đã thích</string>
+
+    <string name="home_model_detail_review_comment_add_comment">Thêm bình luận của bạn</string>
+    <string name="home_model_detail_review_comment_add_reply">Thêm phản hồi của bạn</string>
+
+    <string name="home_model_detail_review_comment_delete">Xoá</string>
+    <string name="home_model_detail_review_comment_delete_comment">Xoá bình luận của bạn?</string>
+    <string name="home_model_detail_review_comment_delete_reply">Xoá phản hồi của bạn?</string>
+    <string name="home_model_detail_review_comment_delete_delete">Xoá</string>
+    <string name="home_model_detail_review_comment_delete_cancel">Huỷ</string>
+
+    <string name="home_motel_detail_map_open_google_map">Mở bằng Google Map</string>
+    <!--End of Home-->
+
+    <!--Notification Fragment-->
+    <string name="notification_turn_on">Bật thông báo</string>
+    <string name="notification_turn_off">Tắt thông báo</string>
+    <string name="notification_new_motel">Mới đăng</string>
+    <string name="notification_new_news">Tin tức</string>
+    <string name="notification_clear_all_confirm_title">Xác nhận</string>
+    <string name="notification_clear_all_confirm_message">Bạn có chắc muốn xoá toàn bộ danh sách thông báo không?\nCần phải xoá toàn bộ danh sách để áp dụng thay đổi bạn vừa thao tác.</string>
+    <string name="notification_clear_all_confirm_yes">Xoá toàn bộ</string>
+    <string name="notification_clear_all_confirm_no">Huỷ thay đổi</string>
+    <!--End of Notification Fragment-->
+
+    <!--Filter Options-->
+    <string name="filter_options_title">Lọc phòng trọ</string>
+    <string name="filter_options_menu_apply_title">OK</string>
+    <string name="filter_options_location">Vị trí</string>
+    <string name="filter_options_location_hint">Nhập vị trí...</string>
+    <string name="filter_options_radius">Bán kính</string>
+    <string name="filter_options_radius_unit">m</string>
+    <string name="filter_options_price">Giá phòng</string>
+    <string name="filter_options_price_unit">đ</string>
+    <string name="filter_options_area">Diện tích</string>
+    <string name="filter_options_area_unit">m2</string>
+    <string name="filter_options_rating">Đánh giá</string>
+    <string name="filter_options_rating_unit">sao</string>
+    <string name="filter_options_min">Tối thiểu</string>
+    <string name="filter_options_max">Tối đa</string>
+    <!--End of Filter Options-->
+
+    <!--Favorite-->
+    <string name="favorite_title">\u0020\u0020Danh sách</string>
+    <string name="favorite_tab_love">Yêu thích</string>
+    <string name="favorite_tab_history">Lịch sử</string>
+    <string name="favorite_tool_bar_clear_all">Xoá tất cả</string>
+    <string name="favorite_tool_bar_clear_all_confirm">Xác nhận</string>
+    <string name="favorite_tool_bar_clear_all_confirm_love">Bạn có chắc muốn xoá toàn bộ danh sách yêu thích không?</string>
+    <string name="favorite_tool_bar_clear_all_confirm_history">Bạn có chắc muốn xoá toàn bộ danh sách lịch sử đã xem không?</string>
+    <string name="favorite_tool_bar_clear_all_confirm_yes">Xoá toàn bộ</string>
+    <string name="favorite_tool_bar_clear_all_confirm_no">Huỷ</string>
+    <!--End of Favorite-->
+
+    <!--Notification-->
+    <string name="notification_setting_ViTri">Vị trí</string>
+    <string name="notification_setting_DienTich">Diện tích</string>
+    <string name="notification_setting_GiaPhong">Giá phòng</string>
+    <string name="notification_setting_BanKinh">Bán kính</string>
+    <string name="notification_setting_Luu">Lưu</string>
+    <string name="notification_setting_DienTich_Min">0 m2</string>
+    <string name="notification_setting_GiaPhong_Min">0 nghìn</string>
+    <string name="notification_setting_BanKinh_Min">0 m</string>
+    <string name="notification_setting_DienTich_Max">40 m2</string>
+    <string name="notification_setting_GiaPhong_Max">3000 nghìn</string>
+    <string name="notification_setting_BanKinh_Max">100 m</string>
+    <string name="notification_setting_demo_min_label">Tối thiểu</string>
+    <string name="notification_setting_demo_max_label">Tối đa</string>
+    <!--End of Notification-->
+
+    <!--Profile-->
+    <string name="profile_sigin_with_google">Google</string>
+    <string name="profile_sigin_with_facebook">Facebook</string>
+    <string name="proflie_note">Với việc tạo tài khoản, bạn có thể nhận được nhiều thông báo mới nhất hoặc đăng tin phòng trọ.</string>
+    <string name="profile_warning">Đăng ký đồng nghĩa với việc bạn chấp nhận điều khoản và điều kiện của TroTot</string>
+    <string name="profile_continue_login">tiếp tục với ...</string>
+    <string name="profile_post">Đăng phòng</string>
+    <string name="profile_help">Trợ giúp</string>
+    <string name="profile_feedback">Phản hồi</string>
+    <string name="profile_group">Về Trọ Tốt</string>
+    <string name="profile_logout">Đăng xuất</string>
+    <string name="profile_login_success">Đăng nhập thành công</string>
+    <string name="profile_logout_success">Đăng xuất thành công</string>
+    <string name="profile_back">Trở về</string>
+    <string name="profile_feedback_header">Hiện tại app trọ tốt đang ở giai đoạn thử nghiệm, nếu các bạn có ý kiến đóng góp, hoặc nhận thấy hệ thống hoạt động lỗi, vui lòng liên hệ chúng tôi qua địa chỉ email: teamdev@trotot.vn</string>
+    <string name="profile_feedback_information">Thông tin</string>
+    <string name="profile_user_name">Tên của bạn là gì?</string>
+    <string name="profile_user_sex">Giới tính của bạn?</string>
+    <string name="profile_user_city">Bạn đang sống ở đâu?</string>
+    <string name="profile_user_phone">Số điện thoại liên lạc?</string>
+    <string name="profile_user_birth">Ngày sinh của bạn?</string>
+
+    <string name="feedback_hint_name">Tên đăng nhập</string>
+    <string name="feedback_hint_phone">Điện thoại</string>
+    <string name="feedback_hint_mail">Email</string>
+    <string name="feedback_hint_body">Nội dung</string>
+
+    <string name="menu_profile_feedback_send">Gửi</string>
+    <string name="menu_profile_post_send">Gửi</string>
+
+    <string name="version">Bản miễn phí</string>
+    <string name="number_version">Version 1.0.0</string>
+
+    <string name="about_rate_on_app_store"><u>Đánh giá trên app store</u></string>
+    <string name="about_group_dev">Nhóm phát triển</string>
+    <string name="about_policy">Chính sách bảo mật</string>
+    <string name="about_website">www.trotot.vn</string>
+    <string name="about_visit_web">Để biết thêm thông tin truy cập:</string>
+
+
+    <string name="post_hint_name">Tên chủ trọ</string>
+    <string name="post_information">Thông tin cơ bản</string>
+    <string name="post_price">Giá phòng:</string>
+    <string name="post_phone">Điện thoại:</string>
+    <string name="post_area">Diện tích:</string>
+    <string name="post_title_image">Hình ảnh</string>
+    <string name="post_title_address">Vị trí</string>
+    <string name="post_title_describe">Mô tả</string>
+
+    <!--end profile-->
+    <!--Title Toolbar-->
+    <string name="title_activity_feedback">Phản Hồi</string>
+    <string name="title_activity_authentication">Đăng Nhập</string>
+    <string name="title_activity_about">Trọ Tốt</string>
+    <string name="title_activity_group_dev">Nhóm Phát Triển</string>
+    <string name="title_activity_Login">Đăng Nhập</string>
+    <string name="title_activity_post">Đăng Trọ</string>
+    <string name="title_activity_motel_detail">Chi Tiết Trọ</string>
+    <string name="title_activity_notification_setting">Cài Đặt Thông Báo</string>
+    <string name="title_activity_find_setting">Lọc Phòng Trọ</string>
+    <string name="title_activity_profile_subscribe">Đăng Ký</string>
+    <string name="title_activity_profile_user">Hồ Sơ</string>
+    <string name="title_activity_news_detail">Chi Tiết Tin Tức</string>
+    <string name="title_activity_profile_forget_password">Quên Mật Khẩu</string>
+
+    <string name="profile_user_sex_male">Nam</string>
+    <string name="profile_user_sex_female">Nữ</string>
+    <string name="profile_user_dialog_title_name">Họ và tên</string>
+    <string name="profile_user_dialog_title_sex">Giới tính</string>
+    <string name="profile_user_dialog_title_city">Thành phố</string>
+    <string name="profile_user_dialog_title_phone">Số điện thoại</string>
+    <string name="profile_user_sex_other">Khác</string>
+    <string name="post_time_open">Giờ mở cửa:</string>
+    <string name="post_time_close">Giờ đóng cửa:</string>
+    <string name="profile_login_fail">bạn đã đăng nhập với gmail này, điều này sẽ làm mất dữ liệu của bạn</string>
+    <string name="post_title">Tên phòng trọ</string>
+    <string name="profile_forget_pass_title">Vui lòng nhập địa chỉ mail để khôi phục mật khẩu!</string>
+    <string name="profile_forger_pass_send">Gửi Mail</string>
+
+    <string name="title_fragment_favorite">\tDanh Sách</string>
+    <string name="title_fragment_find">\tTìm Trọ</string>
+    <string name="title_fragment_notification">\tThông Báo</string>
+    <string name="title_fragment_profile">\tCá Nhân</string>
+    <!--end Title Toolbar-->
+</resources>

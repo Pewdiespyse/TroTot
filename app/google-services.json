@@ -1,0 +1,115 @@
+{
+  "project_info": {
+    "project_number": "617465899254",
+    "firebase_url": "https://trotot-a1819.firebaseio.com",
+    "project_id": "trotot-a1819",
+    "storage_bucket": "trotot-a1819.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:617465899254:android:378b1e59be7ec1aa",
+        "android_client_info": {
+          "package_name": "com.team10.trototnews"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "617465899254-u0fvf9ir1e71dss7rblaq44i5e788c15.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.team10.trototnews",
+            "certificate_hash": "bc52b0de7ea613f1ed33185364db5ec11e380b18"
+          }
+        },
+        {
+          "client_id": "617465899254-5k63o4tojgqjiojbu3d57jmic9btv498.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDCz7L9uC6-WmetBcZ8kpcGaXUbuEfW8t0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "617465899254-5k63o4tojgqjiojbu3d57jmic9btv498.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:617465899254:android:e4ac3ae78ceb4133",
+        "android_client_info": {
+          "package_name": "com.team10.trotot"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "617465899254-epkb648lr4r2esbep63s7qkqm75n6on2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.team10.trotot",
+            "certificate_hash": "65c6254420b9e7f51f792205749a6e8d95d62155"
+          }
+        },
+        {
+          "client_id": "617465899254-37fhtifb003rsgh49h2btoit3nhfcjs7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.team10.trotot",
+            "certificate_hash": "92eb61028631951e178752fc86f57a3b60679b73"
+          }
+        },
+        {
+          "client_id": "617465899254-dkggca2cbvikjmq30g4pvgdkdt7d61gk.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.team10.trotot",
+            "certificate_hash": "bc52b0de7ea613f1ed33185364db5ec11e380b18"
+          }
+        },
+        {
+          "client_id": "617465899254-5k63o4tojgqjiojbu3d57jmic9btv498.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDCz7L9uC6-WmetBcZ8kpcGaXUbuEfW8t0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "617465899254-5k63o4tojgqjiojbu3d57jmic9btv498.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

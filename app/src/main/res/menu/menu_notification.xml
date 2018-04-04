@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/itNotificationFilter"
+        android:icon="@drawable/ic_menu_filter"
+        android:title="Filter"
+        app:showAsAction="always"
+        />
+    <item android:id="@+id/itNotificationSetting"
+        android:icon="@drawable/ic_menu_setting"
+        android:title="Setting"
+        app:showAsAction="always"
+        >
+        <menu>
+            <item android:id="@+id/subMenuNotificationOn"
+                android:icon="@drawable/ic_submenu_on"
+                android:title="Mở" />
+            <item android:id="@+id/subMenuNotificationOff"
+                android:icon="@drawable/ic_submenu_off"
+                android:title="Tắt" />
+        </menu>
+    </item>
+</menu>

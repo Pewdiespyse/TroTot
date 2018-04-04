@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/btn_dialog_male"
+        style="@style/BB_BottomBarItem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?android:attr/selectableItemBackground"
+        android:paddingLeft="30dp"
+        android:text="@string/profile_user_sex_male"
+        android:textAlignment="viewStart"
+        android:textAllCaps="@bool/bb_bottom_bar_is_tablet_mode"
+        android:textColor="@color/colorGoogleText" />
+
+    <Button
+        android:id="@+id/btn_dialog_female"
+        style="@style/BB_BottomBarItem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?android:attr/selectableItemBackground"
+        android:paddingLeft="30dp"
+        android:text="@string/profile_user_sex_female"
+        android:textAlignment="viewStart"
+        android:textAllCaps="@bool/bb_bottom_bar_is_tablet_mode"
+        android:textColor="@color/colorGoogleText" />
+
+    <Button
+        android:id="@+id/btn_dialog_other"
+        style="@style/BB_BottomBarItem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:background="?android:attr/selectableItemBackground"
+        android:paddingLeft="30dp"
+        android:text="@string/profile_user_sex_other"
+        android:textAlignment="viewStart"
+        android:textAllCaps="@bool/bb_bottom_bar_is_tablet_mode"
+        android:textColor="@color/colorGoogleText" />
+</LinearLayout>

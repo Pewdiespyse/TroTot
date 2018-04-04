@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#1E88E5"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:paddingLeft="75dp"
+        android:paddingRight="75dp"
+        app:srcCompat="@drawable/mainmenu" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="0dp"
+        android:fontFamily="sans-serif-condensed"
+        android:gravity="center"
+        android:padding="30dp"
+        android:text="Giúp bạn tìm kiếm phòng trọ với giá lý tưởng nhất"
+        android:textColor="@color/white"
+        android:textSize="20sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <EditText
+                android:id="@+id/editText_first_search"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="false"
+                android:layout_marginBottom="15dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="15dp"
+                android:background="@android:drawable/editbox_background"
+                android:ems="10"
+                android:hint="Tìm địa điểm"
+                android:inputType="textPersonName"
+                android:paddingBottom="20dp"
+                android:paddingLeft="44dp"
+                android:paddingRight="20dp"
+                android:paddingTop="20dp"
+                android:textSize="15sp"></EditText>
+
+            <ImageButton
+                android:id="@+id/imageButton_first_search_speech"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@id/editText_first_search"
+                android:layout_alignRight="@id/editText_first_search"
+                android:layout_alignTop="@id/editText_first_search"
+                android:layout_marginRight="8dp"
+                android:layout_weight="1"
+                android:background="@color/transparent"
+                app:srcCompat="@android:drawable/ic_btn_speak_now" />
+            <ImageButton
+                android:id="@+id/imageButton_first_search_location"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@id/editText_first_search"
+                android:layout_alignLeft="@id/editText_first_search"
+                android:layout_alignTop="@id/editText_first_search"
+                android:layout_marginLeft="8dp"
+                android:layout_weight="1"
+                android:background="@color/transparent"
+                app:srcCompat="@android:drawable/ic_menu_mylocation" />
+        </RelativeLayout>
+
+        <android.support.design.widget.FloatingActionButton
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:layout_marginRight="15dp"
+            android:id="@+id/btnFirstSearch"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            app:backgroundTint="@color/primary_constrast"
+            app:srcCompat="@mipmap/ic_search" />
+    </LinearLayout>
+
+</LinearLayout>

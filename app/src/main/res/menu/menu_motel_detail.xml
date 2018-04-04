@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/menu_motel_detail_share"
+        android:icon="@drawable/ic_action_share"
+        android:title="@string/home_model_detail_share"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/menu_motel_detail_favorite"
+        android:icon="@drawable/ic_action_favorite"
+        android:title="@string/home_model_detail_love"
+        app:showAsAction="always" />
+
+</menu>

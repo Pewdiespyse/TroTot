@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/menuFavoriteDelete"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_submenu_delete"
+        android:title="@string/favorite_tool_bar_clear_all" />
+    <!--<item android:id="@+id/itFavoriteMenu"-->
+    <!--android:icon="@drawable/ic_menu_menu"-->
+    <!--android:title="Menu"-->
+    <!--app:showAsAction="always">-->
+    <!--<menu>-->
+    <!--<item-->
+    <!--android:icon="@drawable/ic_submenu_marked"-->
+    <!--android:title="Đã thích">-->
+    <!--<menu>-->
+    <!--<item android:id="@+id/subMenuFavoriteLovedSort"-->
+    <!--android:icon="@drawable/ic_submenu_sort"-->
+    <!--android:title="Sắp xếp" />-->
+    <!--<item android:id="@+id/subMenuFavoriteLovedDelete"-->
+    <!--android:icon="@drawable/ic_submenu_delete"-->
+    <!--android:title="Xóa hết" />-->
+    <!--</menu>-->
+    <!--</item>-->
+    <!--<item-->
+    <!--android:icon="@drawable/ic_menu_watched"-->
+    <!--android:title="Đã xem">-->
+    <!--<menu>-->
+    <!--<item android:id="@+id/subMenuFavoriteViewedSort"-->
+    <!--android:icon="@drawable/ic_submenu_sort"-->
+    <!--android:title="Sắp xếp" />-->
+    <!--<item android:id="@+id/subMenuFavoriteViewedDelete"-->
+    <!--android:icon="@drawable/ic_submenu_delete"-->
+    <!--android:title="Xóa hết" />-->
+    <!--</menu>-->
+    <!--</item>-->
+    <!--</menu>-->
+
+    <!--</item>-->
+</menu>

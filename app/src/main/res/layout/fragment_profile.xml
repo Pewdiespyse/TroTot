@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginBottom="60dp"
+    android:layout_marginTop="50dp"
+    android:background="#B3E5FC"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:background="#36405A"
+        android:orientation="horizontal"
+        android:paddingBottom="40dp"
+        android:paddingLeft="15dp"
+        android:paddingRight="30dp"
+        android:paddingTop="40dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:paddingTop="15dp">
+
+            <TextView
+                android:id="@+id/textView_profile_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="0dp"
+                android:layout_weight="0"
+                android:gravity="left|center"
+                android:paddingLeft="20dp"
+                android:text="Username"
+                android:textColor="#ffffff"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView_profile_email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0"
+                android:paddingLeft="20dp"
+                android:text="user@gmail.com"
+                android:textColor="#ffffff"
+                android:textSize="15sp" />
+        </LinearLayout>
+
+        <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/imageView_profile_avatar"
+            android:layout_width="96dp"
+            android:layout_height="96dp"
+            android:src="@drawable/default_avatar"
+            app:civ_border_color="#ffffff"
+            app:civ_border_width="1dp" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:background="#3EC3F9"></LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorListViewBackground"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#0A8ECC"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/button_profile_user"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="15dp"
+                android:layout_marginLeft="40dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="25dp"
+                android:layout_weight="1"
+                android:background="@drawable/custom_button_style"
+                android:drawablePadding="10dp"
+                android:drawableTop="@drawable/ic_profile_user"
+                android:gravity="center_horizontal|center"
+                android:paddingTop="20dp"
+                android:text="Hồ sơ"
+                android:textAllCaps="@bool/bb_bottom_bar_is_tablet_mode"
+                android:textColor="#ffffff" />
+
+            <Button
+                android:id="@+id/button_profile_post"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="15dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="40dp"
+                android:layout_marginTop="25dp"
+                android:layout_weight="1"
+                android:background="@drawable/custom_button_style"
+                android:drawablePadding="10dp"
+                android:drawableTop="@drawable/ic_profile_post"
+                android:gravity="center"
+                android:paddingTop="20dp"
+                android:text="Đăng trọ"
+                android:textAllCaps="@bool/bb_bottom_bar_is_tablet_mode"
+                android:textColor="#ffffff" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#0A8ECC"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/button_profile_about"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="25dp"
+                android:layout_marginLeft="40dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="15dp"
+                android:layout_weight="1"
+                android:background="@drawable/custom_button_style"
+                android:drawablePadding="10dp"
+                android:drawableTop="@drawable/ic_profile_about"
+                android:gravity="center"
+                android:paddingTop="20dp"
+                android:text="Về Ứng Dụng"
+                android:textAllCaps="@bool/bb_bottom_bar_is_tablet_mode"
+                android:textColor="#ffffff" />
+
+            <Button
+                android:id="@+id/button_profile_feedback"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="25dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="40dp"
+                android:layout_marginTop="15dp"
+                android:layout_weight="1"
+                android:background="@drawable/custom_button_style"
+                android:drawablePadding="10dp"
+                android:drawableTop="@drawable/ic_profile_feedback"
+                android:gravity="center"
+                android:paddingTop="20dp"
+                android:text="Phản hồi"
+                android:textAllCaps="@bool/bb_bottom_bar_is_tablet_mode"
+                android:textColor="#ffffff" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

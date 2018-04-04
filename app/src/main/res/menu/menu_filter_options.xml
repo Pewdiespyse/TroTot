@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/menu_filter_options_apply"
+        android:icon="@drawable/ic_action_apply"
+        android:title="@string/filter_options_menu_apply_title"
+        app:showAsAction="always" />
+</menu>

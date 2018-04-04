@@ -1,0 +1,186 @@
+<resources>
+    <!-- Main -->
+    <string name="app_name">Tro Tot</string>
+    <string name="find">Find</string>
+    <string name="favorite">Favorite</string>
+    <string name="notification">Notification</string>
+    <string name="profile">Profile</string>
+    <string name="facebook_app_id">127919827911885</string>
+    <string name="fb_login_protocol_scheme">fb127919827911885</string>
+
+    <string name="lorem">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?</string>
+    <!-- End of Main -->
+
+    <!--Home-->
+    <string name="home_model_detail_information">Information</string>
+    <string name="home_model_detail_image">Image</string>
+    <string name="home_model_detail_review">Review</string>
+    <string name="home_model_detail_map">Map</string>
+
+    <string name="home_no_data">No data</string>
+
+    <string name="home_model_detail_share">Share</string>
+    <string name="home_model_detail_love">Love</string>
+
+    <string name="home_model_detail_ok">OK</string>
+    <string name="home_model_detail_cancel">Cancel</string>
+
+    <string name="home_model_detail_name">Motel detail</string>
+    <string name="home_model_detail_not_found">Motel not found</string>
+
+    <string name="home_model_detail_information_address">Address:</string>
+    <string name="home_model_detail_information_area">Area:</string>
+    <string name="home_model_detail_information_detail">Detail:</string>
+    <string name="home_model_detail_information_name">Name:</string>
+    <string name="home_model_detail_information_phone">Phone:</string>
+    <string name="home_model_detail_information_price">Price:</string>
+    <string name="home_model_detail_information_status">Status:</string>
+    <string name="home_model_detail_information_open_time">Open time:</string>
+    <string name="home_model_detail_information_close_time">Close time:</string>
+    <string name="home_model_detail_information_post_time">Posted time:</string>
+
+    <string name="home_model_detail_information_call">Call</string>
+    <string name="home_model_detail_information_sms">Message</string>
+    <string name="home_model_detail_information_contact">Contact</string>
+    <string name="home_model_detail_information_contact_detail">Contact with owner by telephone at </string>
+
+    <string name="home_model_detail_review_my_rating">Your rating</string>
+    <string name="home_model_detail_review_my_comment">Add your comment</string>
+    <string name="home_model_detail_review_comment_reply">Reply</string>
+    <string name="home_model_detail_review_comment_like">Like</string>
+    <string name="home_model_detail_review_comment_liked">Liked</string>
+
+    <string name="home_model_detail_review_comment_add_comment">Add your comment</string>
+    <string name="home_model_detail_review_comment_add_reply">Add your reply</string>
+
+    <string name="home_model_detail_review_comment_delete">Delete</string>
+    <string name="home_model_detail_review_comment_delete_comment">Delete your comment?</string>
+    <string name="home_model_detail_review_comment_delete_reply">Delete your reply?</string>
+    <string name="home_model_detail_review_comment_delete_delete">Delete</string>
+    <string name="home_model_detail_review_comment_delete_cancel">Cancel</string>
+
+    <string name="home_motel_detail_map_open_google_map">Open with Google Map</string>
+    <!--End of Home-->
+
+    <!--Notification Fragment-->
+    <string name="notification_turn_on">Turn on notification</string>
+    <string name="notification_turn_off">Turn off notification</string>
+    <string name="notification_new_motel">New motel</string>
+    <string name="notification_new_news">News</string>
+    <string name="notification_clear_all_confirm_title">Confirm</string>
+    <string name="notification_clear_all_confirm_message">Are you sure to clear all your motels?\nYou need to delete the entire list to apply the changes you just made.</string>
+    <string name="notification_clear_all_confirm_yes">Clear all</string>
+    <string name="notification_clear_all_confirm_no">Cancel change</string>
+    <!--End of Notification Fragment-->
+
+    <!--Filter Options-->
+    <string name="filter_options_title">Motel filter</string>
+    <string name="filter_options_menu_apply_title">OK</string>
+    <string name="filter_options_location">Location</string>
+    <string name="filter_options_location_hint">Enter location...</string>
+    <string name="filter_options_radius">Radius</string>
+    <string name="filter_options_radius_unit">m</string>
+    <string name="filter_options_price">Price</string>
+    <string name="filter_options_price_unit">đ</string>
+    <string name="filter_options_area">Area</string>
+    <string name="filter_options_area_unit">m2</string>
+    <string name="filter_options_rating">Rating</string>
+    <string name="filter_options_rating_unit">star(s)</string>
+    <string name="filter_options_min">Min</string>
+    <string name="filter_options_max">Max</string>    <!--End of Filter Options-->
+
+    <!--Favorite-->
+    <string name="favorite_title">\u0020\u0020List</string>
+    <string name="favorite_tab_love">Love</string>
+    <string name="favorite_tab_history">History</string>
+    <string name="favorite_tool_bar_clear_all">Clear all</string>
+    <string name="favorite_tool_bar_clear_all_confirm">Confirm</string>
+    <string name="favorite_tool_bar_clear_all_confirm_love">Are you sure to clear all your favorite motel?</string>
+    <string name="favorite_tool_bar_clear_all_confirm_history">Are you sure to clear all your viewed motel history?</string>
+    <string name="favorite_tool_bar_clear_all_confirm_yes">Clear all</string>
+    <string name="favorite_tool_bar_clear_all_confirm_no">Cancel</string>
+    <!--End of Favorite-->
+
+    <!--Profile-->
+    <string name="profile_sigin_with_google">Google</string>
+    <string name="profile_sigin_with_facebook">Facebook</string>
+    <string name="proflie_note">By creating an account, you may receive the most recent announcements or postings..</string>
+    <string name="profile_warning">Subscribing means you accept the terms and conditions of TroTot</string>
+    <string name="profile_continue_login">continue with ...</string>
+    <string name="profile_post">Post</string>
+    <string name="profile_help">Help</string>
+    <string name="profile_feedback">Feedback</string>
+    <string name="profile_group">About</string>
+    <string name="profile_logout">Logout</string>
+    <string name="profile_login_success">Login success</string>
+    <string name="profile_logout_success">Logout success</string>
+    <string name="profile_back">Back</string>
+    <string name="profile_feedback_header">Currently, the good app is in beta, if you have any suggestions, or if you find the system error, please contact us at teamdev@trotot.vn.</string>
+    <string name="profile_feedback_information">Information</string>
+    <string name="profile_user_name">What is your name?</string>
+    <string name="profile_user_sex">What is your gender?</string>
+    <string name="profile_user_city">Where are you from?</string>
+    <string name="profile_user_phone">what is your telephone number?</string>
+    <string name="profile_user_birth">what is your birthday?</string>
+
+    <string name="feedback_hint_name">User name</string>
+    <string name="feedback_hint_phone">Phone</string>
+    <string name="feedback_hint_mail">Email</string>
+    <string name="feedback_hint_body">content</string>
+
+    <string name="menu_profile_feedback_send">Send</string>
+    <string name="menu_profile_post_send">Send</string>
+
+    <string name="version">Free version</string>
+    <string name="number_version">Version 1.0.0</string>
+    <string name="about_rate_on_app_store"><u>Rate on App Store</u></string>
+    <string name="about_group_dev">Group Deverloper</string>
+    <string name="about_policy">Privacy Policy</string>
+    <string name="about_website">www.trotot.vn</string>
+    <string name="about_visit_web">For more information visit:</string>
+
+    <string name="post_hint_name">host name</string>
+    <string name="post_information">basic information</string>
+    <string name="post_price">Price:</string>
+    <string name="post_phone">Phone:</string>
+    <string name="post_area">Area:</string>
+    <string name="post_title_image">Picture</string>
+    <string name="post_title_address">Address</string>
+    <string name="post_title_describe">describe</string>
+    <!--end profile-->
+
+    <!--Title Toolbar-->
+    <string name="title_activity_feedback">FeedBack</string>
+    <string name="title_activity_authentication">Login</string>
+    <string name="title_activity_about">About</string>
+    <string name="title_activity_group_dev">Group Developer</string>
+    <string name="title_activity_Login">Login</string>
+    <string name="title_activity_post">Motel Post</string>
+    <string name="title_activity_motel_detail">Motel Detail</string>
+    <string name="title_activity_notification_setting">Notification Setting</string>
+    <string name="title_activity_find_setting">Motel Filter</string>
+    <string name="title_activity_profile_subscribe">Subscribe</string>
+    <string name="title_activity_profile_user">Profile</string>
+    <string name="title_activity_news_detail">News Detail</string>
+    <string name="title_activity_profile_forget_password">Forget Password</string>
+
+    <string name="profile_user_sex_male">Male</string>
+    <string name="profile_user_sex_female">Female</string>
+    <string name="profile_user_dialog_title_name">Full name</string>
+    <string name="profile_user_dialog_title_sex">Gender</string>
+    <string name="profile_user_dialog_title_city">City</string>
+    <string name="profile_user_dialog_title_phone">Phone</string>
+    <string name="profile_user_sex_other">Other</string>
+    <string name="post_time_open">Time open:</string>
+    <string name="post_time_close">Time close:</string>
+    <string name="profile_login_fail">You have signed in with this email, which mean your data will be lost</string>
+    <string name="post_title">Motel name</string>
+    <string name="profile_forget_pass_title">Please provide your email to reset password!</string>
+    <string name="profile_forger_pass_send">Send Mail</string>
+
+    <string name="title_fragment_favorite">\tFavorite</string>
+    <string name="title_fragment_find">\tFind</string>
+    <string name="title_fragment_notification">\tNotification</string>
+    <string name="title_fragment_profile">\tProfile</string>
+    <!--end Title Toolbar-->
+</resources>

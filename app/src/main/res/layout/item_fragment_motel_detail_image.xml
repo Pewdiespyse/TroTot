@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp">
+
+
+    <ImageView
+        android:id="@+id/img_motel_detail_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:background="@drawable/load_room"
+        android:scaleType="fitCenter" />
+
+
+    <!--<com.facebook.drawee.view.SimpleDraweeView-->
+    <!--android:id="@+id/img_motel_detail_image"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:adjustViewBounds="true"-->
+    <!--fresco:actualImageScaleType="centerCrop"-->
+    <!--fresco:placeholderImage="@drawable/load_room"-->
+    <!--fresco:placeholderImageScaleType="centerCrop"-->
+    <!--fresco:roundBottomLeft="true"-->
+    <!--fresco:roundBottomRight="true"-->
+    <!--fresco:roundTopLeft="true"-->
+    <!--fresco:roundTopRight="true"-->
+    <!--fresco:roundedCornerRadius="10dp" />-->
+
+</FrameLayout>

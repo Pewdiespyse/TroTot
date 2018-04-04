@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <tabs>
+        <tab
+            activeColor="#ffffff"
+            icon="@drawable/ic_bottom_bar_search"
+            id="@+id/tab_home"
+            inActiveColor="#BBDEFB"
+            />
+        <tab
+            activeColor="#ffffff"
+            barColorWhenSelected="#36405A"
+            icon="@drawable/ic_bottom_bar_favorite"
+            id="@+id/tab_favorite"
+            inActiveColor="#BBDEFB"
+            />
+        <tab
+            activeColor="#ffffff"
+            barColorWhenSelected="#36405A"
+            icon="@drawable/ic_bottom_bar_notification"
+            id="@+id/tab_notification"
+            inActiveColor="#BBDEFB"
+            />
+        <tab
+            activeColor="#ffffff"
+            barColorWhenSelected="#36405A"
+            icon="@drawable/ic_bottom_bar_profile"
+            id="@+id/tab_profile"
+            inActiveColor="#BBDEFB"
+            />
+    </tabs>
+</resources>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="10dp"
+    android:layout_marginStart="10dp"
+    android:layout_marginTop="10dp">
+
+    <RelativeLayout
+        android:id="@+id/rl_item_motel_detail_review_comment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/img_item_motel_detail_review_comment_reply_profile"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:scaleType="centerCrop" />
+
+        <TextView
+            android:id="@+id/tv_item_motel_detail_review_comment_reply_profile"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_toEndOf="@id/img_item_motel_detail_review_comment_reply_profile"
+            android:text="Luong Vĩnh Khang" />
+
+        <TextView
+            android:id="@+id/tv_item_motel_detail_review_comment_reply_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignTop="@id/tv_item_motel_detail_review_comment_reply_profile"
+            android:layout_marginEnd="5dp"
+            android:text="12/12/2017 12:12:12"
+            android:textColor="#adadad" />
+
+        <TextView
+            android:id="@+id/tv_item_motel_detail_review_comment_reply_content"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@id/tv_item_motel_detail_review_comment_reply_profile"
+            android:layout_below="@id/tv_item_motel_detail_review_comment_reply_profile"
+            android:layout_margin="5dp"
+            android:text="2313213" />
+
+    </RelativeLayout>
+
+
+</FrameLayout>

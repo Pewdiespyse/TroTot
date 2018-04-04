@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.SwipeRefreshLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/srl_motel_detail_review"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
+
+                <FrameLayout
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginStart="20dp"
+                        android:foregroundGravity="center"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/tv_motel_detail_review_rating_star_avg"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_marginBottom="10dp"
+                            android:text="0.0"
+                            android:textSize="40sp" />
+
+                        <RatingBar
+                            android:id="@+id/rb_motel_detail_review_rating_star_avg"
+                            style="?android:attr/ratingBarStyleSmall"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_marginBottom="5dp"
+                            android:isIndicator="true"
+                            android:numStars="5"
+                            android:rating="0" />
+
+                        <TextView
+                            android:id="@+id/tv_motel_detail_review_rating_count"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_horizontal"
+                            android:text="\u2603 0"
+                            android:textSize="13sp" />
+
+
+                    </LinearLayout>
+                </FrameLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/tv_motel_detail_review_1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:layout_marginEnd="5dp"
+                            android:text="\u26055"
+                            android:textSize="15sp" />
+
+                        <ProgressBar
+                            android:id="@+id/pb_motel_detail_review_rating_1"
+                            style="?android:attr/progressBarStyleHorizontal"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:max="100"
+                            android:progress="0"
+                            android:progressBackgroundTint="@color/transparent"
+                            android:progressTint="#88b131"
+                            android:scaleY="1" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/tv_motel_detail_review_2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:layout_marginEnd="5dp"
+                            android:text="\u26054"
+                            android:textSize="15sp" />
+
+                        <ProgressBar
+                            android:id="@+id/pb_motel_detail_review_rating_2"
+                            style="?android:attr/progressBarStyleHorizontal"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:max="100"
+                            android:progress="0"
+                            android:progressBackgroundTint="@color/transparent"
+                            android:progressTint="#99cc00"
+                            android:scaleY="1" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/tv_motel_detail_review_3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:layout_marginEnd="5dp"
+                            android:text="\u26053"
+                            android:textSize="15sp" />
+
+                        <ProgressBar
+                            android:id="@+id/pb_motel_detail_review_rating_3"
+                            style="?android:attr/progressBarStyleHorizontal"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:max="100"
+                            android:progress="0"
+                            android:progressBackgroundTint="@color/transparent"
+                            android:progressTint="#ffcf02"
+                            android:scaleY="1" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/tv_motel_detail_review_4"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:layout_marginEnd="5dp"
+                            android:text="\u26052"
+                            android:textSize="15sp" />
+
+                        <ProgressBar
+                            android:id="@+id/pb_motel_detail_review_rating_4"
+                            style="?android:attr/progressBarStyleHorizontal"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:max="100"
+                            android:progress="0"
+                            android:progressBackgroundTint="@color/transparent"
+                            android:progressTint="#ff9f02"
+                            android:scaleY="1" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/tv_motel_detail_review_5"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:layout_marginEnd="5dp"
+                            android:text="\u26051"
+                            android:textSize="15sp" />
+
+                        <ProgressBar
+                            android:id="@+id/pb_motel_detail_review_rating_5"
+                            style="?android:attr/progressBarStyleHorizontal"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:max="100"
+                            android:progress="0"
+                            android:progressBackgroundTint="@color/transparent"
+                            android:progressTint="#ff6f31"
+                            android:scaleY="1" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <RelativeLayout
+                android:id="@+id/rl_motel_detail_review_rating_me_parent"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp">
+
+                <TextView
+                    android:id="@+id/tv_motel_detail_review_rating_touch_me"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_gravity="center"
+                    android:text="@string/home_model_detail_review_my_rating" />
+
+                <me.zhanghai.android.materialratingbar.MaterialRatingBar
+                    android:id="@+id/rb_motel_detail_review_rating_star_me"
+                    style="@style/Widget.MaterialRatingBar.RatingBar"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/tv_motel_detail_review_rating_touch_me"
+                    android:layout_centerHorizontal="true"
+                    android:layout_gravity="center"
+                    android:isIndicator="true"
+                    android:numStars="5"
+                    android:rating="0" />
+
+                <FrameLayout
+                    android:id="@+id/fl_motel_detail_review_rating_me"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_alignBottom="@id/rb_motel_detail_review_rating_star_me"
+                    android:layout_alignEnd="@id/rb_motel_detail_review_rating_star_me"
+                    android:layout_alignStart="@id/rb_motel_detail_review_rating_star_me"
+                    android:layout_alignTop="@id/tv_motel_detail_review_rating_touch_me" />
+
+                <TextView
+                    android:id="@+id/tv_item_motel_detail_review_add_comment_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/fl_motel_detail_review_rating_me"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="10dp"
+                    android:text="@string/home_model_detail_review_my_comment"
+                    android:visibility="gone" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/colorListViewBackground">
+
+                <!--<ProgressBar-->
+                <!--style="?android:attr/progressBarStyleHorizontal"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:max="100"-->
+                <!--android:progress="100"-->
+                <!--android:progressBackgroundTint="@color/transparent"-->
+                <!--android:progressTint="@color/accent"-->
+                <!--android:scaleY="1" />-->
+
+                <android.support.v7.widget.RecyclerView
+                    android:id="@+id/rv_motel_detail_review_comment"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp" />
+
+                <Button
+                    android:id="@+id/btn_item_motel_detail_review_add_comment_2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/rv_motel_detail_review_comment"
+                    android:layout_centerHorizontal="true"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:background="@drawable/custom_listview_style"
+                    android:layout_marginBottom="10dp"
+                    android:text="@string/home_model_detail_review_my_comment"
+                    android:textAllCaps="false" />
+
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</android.support.v4.widget.SwipeRefreshLayout>
